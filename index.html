@@ -1,529 +1,823 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="">
+
   <head>
+    
+    
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lepší systém exekucí - Pirátská strana</title>
+    <title>Lepší systém exekucí</title>
     <meta name="author" content="Česká pirátská strana" />
     <meta name="robots" content="index,follow" />
-    <meta name="description" content="Česká pirátská strana stojí na své členské základně a pomoci mnoha příznívců a dobrovolníků. Piráti jsou otevření novým zájemcům na všech úrovních.">
-    <meta name="keywords" content="piráti, česká pirátská strana, svoboda, demokracie, kontrola moci a mocných, zjednodušení státu pomocí technologií, ochranu občanů před šikanou, obranu svobody, černá na bílé, exekuce, teritorialita, slučování exekucí " />
-    <meta property="og:title"         content="Jak na lepší exekuce ? " />
-    <meta property="og:description"   content="Česká pirátská strana navrhuje vylepšení systému exekutorů." />
-    
-    <meta property="og:image"         content="https://exekuce.pirati.cz/static/img/share_img.jpg" />
-    
-    <link type="application/atom+xml" rel="alternate" href="https://www.pirati.cz/feed.xml" title="Pirátská strana" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.pirati.cz/assets/favicon/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="https://www.pirati.cz/assets/favicon/favicon-196x196.png" sizes="196x196">
-    <link rel="icon" type="image/png" href="https://www.pirati.cz/assets/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="https://www.pirati.cz/assets/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="https://www.pirati.cz/assets/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.pirati.cz/assets/favicon/favicon-128.png" sizes="128x128">
-    <meta name="application-name" content="Lepší systém exekucí - Česká pirátská strana">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-128x128.png" sizes="128x128">
+    <link rel="alternate" type="application/rss+xml" title="Lepší systém exekucí RSS" href="/feed.xml">
+    <meta name="application-name" content="Lepší systém exekucí">
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="https://www.pirati.cz/assets/favicon/mstile-144x144.">
-    <meta name="msapplication-square70x70logo" content="https://www.pirati.cz/assets/favicon/mstile-70x70.">
-    <meta name="msapplication-square150x150logo" content="https://www.pirati.cz/assets/favicon/mstile-150x150.">
-    <meta name="msapplication-wide310x150logo" content="https://www.pirati.cz/assets/favicon/mstile-310x150.">
-    <meta name="msapplication-square310x310logo" content="https://www.pirati.cz/assets/favicon/mstile-310x310.">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="/assets/img/favicon/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/assets/img/favicon/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/assets/img/favicon/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/assets/img/favicon/mstile-310x310.png">
+    <meta property="og:url"           content="http://0.0.0.0:4000/" />
     <meta property="og:type"          content="website" />
-    <meta property="og:url"           content="https://exekuce.pirati.cz/" />
+    <meta property="og:title"         content="Lepší systém exekucí" />
+    <meta property="og:description"   content="" />
+    
+    <meta property="og:image"         content="http://0.0.0.0:4000/assets/img/brand/logo-round.png" />
+    
     <!-- Fonts -->
     
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,500,700|Open+Sans:400,600,700&amp;subset=latin-ext|Bebas+Neue:400,600,800|Roboto+Condensed:200,400,700" rel="stylesheet">
-    <link href="static/css/main.css" rel="stylesheet">
-    <link href="static/css/main_local.css" rel="stylesheet">
-
-    <script src="static/js/vendor/jquery.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
-    <style>
-        .top-bar-title > .title-text { display: inline-block; padding: 0.5em 1em 0.5em 3em; font-size:1.15rem;}
-        .width-alt-s { display:none; }
-        @media only screen and (max-width:700px){
-            .top-bar-title > .title-text {display:none !important;}
-            .c-top-bar .c-top-bar-inner .top-bar-title {margin-right: 0px;}
-            .width-alt-l { display:none !important; }
-            .width-alt-s { display:block !important; }
-        }
-
-.topic-icon { width: 2em; margin: 0 0.5em 0 0; vertical-align: middle; padding-bottom: 0.3em; }
-
-.header-block div { text-align: justify; }
-.header-block h2.tr { text-align: right; }
-.questionField { text-align: left; }
-@media screen and (max-width: 74.9375em) { 
-    .header-block h2.topic { margin-top:1.0em; }
-}
-
-@media screen and (max-width: 10em) { 
-    .questionField { text-align: center; }
-}
-
-section {
-    font-family: "Roboto Condensed";
-    font-weight: 200;
-    font-size: 14pt;
-    text-align: justify;
-}
-.page-heading {
-    font-family: "Bebas Neue";
-    font-weight: 600; 
-    font-size: 60pt;
-    text-align: center;
-}
-.main-header { font-size: 20pt; font-weight: bold; }
-
-.citation { padding: 1em 2em; font-weight: 400 ; margin-bottom: 1em;  }
-.citation-e { padding: 1em 0em; font-weight: 200 ; margin-bottom: 1em;  }
-.citation > div { font-weight: 200; text-align: right; font-style: italic; padding-top: 1.5em; }
-.citation-e > div { font-weight: 200; text-align: right; font-style: italic; padding-top: 1.5em; }
-
-.topic { padding: 0 0em; font-weight: bold; }
-
-.lawText { padding: 2em; background: #e7e7e7; }
-
-
-    </style>
+    <link rel="stylesheet" href="/assets/main-71f2e8da69fe05689460cdaa03c0df39b202cf1dfd485917d222abe321a8667b.css">
     
-<style>
-.header-list > li { list-style-type: none; padding-bottom: 0.7em; }
-.question {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: left;
-    font-family: Roboto Condensed;
-}
+    <!-- API Mapy.cz that has to be in the header -->
+    
 
-.meritka { margin-left: 1.5em; }
-.meritka li { font-weight:bold; list-style-type: none;}
-
-.myform input {display: inline-block; font-size: 1.1em;
-    width: 6em; text-align: left; 
-}
-
-.calcBlock { display: none }
-.calcBlock.show { display: block }
-
-.color-main { color: #4d3d72; }
-.color-sec { color: #82779b; }
-.color-bg-main { background-color: #82779b !important; border-color: #82779b; }
-
-
-</style>
-<script>
-</script>
-
-
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//piwik.pirati.cz/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '28']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+    
+    
 </head>
+
 
 
   <body>
 
-    <div class='thetop'></div>
-<aside class="o-section o-section--smaller c-header-bar u-inverted u-inverted--darker u-center-860-down">
+    <aside class="o-section o-section--smaller c-header-bar u-center--medium-down">
   <div class="row">
     <div class="o-section-inner" style="padding: 3px;">
       <div class="medium-12 columns">
-      &nbsp;
-      </div>
-    </div>
-  </div>
-</aside>
-<div class="c-top-bar">
-  <div class="row">
-    <div class="c-top-bar-inner u-cf">
-      
-      <div class="top-bar-title">
-        <a href="/">
-          <img src="https://www.pirati.cz/assets/img/brand/logo_napis.svg" alt="Pirátská strana">
+        
+        <a href="http://0.0.0.0:4000/">
+          <span class="c-header-bar__title">Lepší systém exekucí</span>
         </a>
-        <span class="title-text"><a href="/" style="color: black;">LEPŠÍ EXEKUCE</a></span>
-      </div>
-
-
-      <div class="menu-toggle-container hide-for-large">
-        <span data-responsive-toggle="responsive-menu" id="menuTogge" data-hide-for="large">
-          <button class="" type="button" data-toggle="">
-            <span class="menu-toggle-inner">
-              <span class="menu-toggle-description">Lepší exekuce</span>
-              <i class="menu-icon dark"></i>
-            </span>
-          </button>
-        </span>
-      </div>
-      <div id="responsive-menu" class="c-top-bar-menu">
-        <div class="responsive-menu-inner">
-          <div class="top-bar-left top-bar-footer-group">
-            <ul class="dropdown menu" data-dropdown-menu="">
-              <li>
-                    <a href="#video">Video</a>
-              </li>
-              <li>
-                    <a href="https://www.pirati.cz/tiskove-zpravy/exekucni-rad-piratska-novela-neprosla-vladou.html">Aktuality</a>
-              </li>              
-              
-              <li>
-                    <a href="#duvody">Důvody pro uzákonění</a>
-              </li>
-              <li>
-                    <a href="#navrh">Legislativní návrh</a>
-              </li>
-              <li>
-                    <a href="#kontakt">Kontakt</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="c-top-bar-border"></div>
-
-    <div class="page-content">
-      <div class="wrapper">
-
-
-    
-
+        <div class="c-header-bar-divider show-for-medium"></div>
         
 
-
-<div class="row">
-  <div class="medium-12 large-8 large-push-2 columns">
-    <section class="o-section">
-      <div class="o-section-inner">
-        <div class="o-section-block" data-equalizer data-equalize-on="medium">
-          <div class="page-heading" id="video">
-              <div style="font-size: 60pt;" class="color-main">Jak na spravedlivější exekuční systém?</div>
-          </div>
-          <p style="margin: 2em auto; display: block; text-align: center;">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gEcMdIC4xPg" frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </p>
-          <div class="citation-e">
-            „V&nbsp;České republice je skoro 900 tisíc lidí v&nbsp;exekuci. Problém přitom nezatěžuje jen povinné (dlužníky) a&nbsp;jejich nejbližší rodinné okolí, ale i&nbsp;celou ekonomiku a&nbsp;všechny dotčené instituce. Současná praxe omezuje vymahatelnost práva; nároky věřitelů často zůstávají neuspokojeny, dotčené instituce jsou zahlceny administrativou a&nbsp;narušován je i&nbsp;základní ústavní požadavek na nestrannost exekutora a&nbsp;spravedlivý proces.
-<br/>
-<br/>
-
-            Piráti pokládají téma exekucí za jednu ze svých klíčových agend, kterým se aktivně věnují, a&nbsp;nejinak tomu bude i&nbsp;v&nbsp;budoucnu. Navrhujeme sjednocení všech pohledávek pod jednoho exekutora, a&nbsp;to podle místa pobytu povinného. Toto opatření sníží náklady, zlepší komunikaci mezi exekutorem a&nbsp;povinným, zvýší vymahatelnost práva a&nbsp;rozbije klientelistické vazby mezi velkými obchodníky s&nbsp;pohledávkami a&nbsp;exekutory.“
-            
-            <div>&ndash; Lukáš Kolářík, poslanec Parlamentu České republiky</div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-
-<div class="row header-block">
-  <div class="medium-12 large-12 columns">
-    <section class="o-section o-section--spaceBot">
-      <div class="o-section-inner">
-        <div class="o-section-block" data-equalizer data-equalize-on="medium">
-          <div class="medium-12 large-12 columns">
-              <h2 style="clear:both" class="main-header color-main" id="duvody">
-                <img class="topic-icon" src="static/img/bullet_img.png"/>
-                Důvody pro uzákonění
-              </h2>
-          </div>
-
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Vymahatelnost práva</h2>
-              Vymoci pohledávku od povinného s&nbsp;vícečetnými exekucemi je v&nbsp;současné praxi téměř nereálné. I&nbsp;přesto tyto marné exekuce vznikají a&nbsp;hromadí se. Přijetím našeho návrhu by exekutor evidoval pro futuro všechny exekuce povinného a&nbsp;mohl by tak věřitele informovat o&nbsp;reálné šanci cokoliv vymoci. Navíc na straně povinných s&nbsp;vícečetnými exekucemi klesnou výdaje na správní řízení vedené pod jediným exekutorem, a&nbsp;tak se zvýší jejich motivace splácet své závazky.
-              <br>
-          </div>
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Dopady na společnost</h2>
-              Zavedení teritoriality zlepšuje možnosti povinného řešit své dluhy. V&nbsp;případě snížení počtu dlužníků se tak sníží i&nbsp;celospolečenské náklady. Povinní jsou nezřídkakdy pobírateli nejrůznějších dávek určených na život v&nbsp;nouzi a&nbsp;také často unikají do šedých či černých zón ekonomiky.
-              <br>
-          </div>
-          <div class="medium-12 large-12 columns">&nbsp;</div>
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Zaměstnanost</h2>
-              Pirátský návrh odstraní výrazné bariéry v&nbsp;zaměstnávání osob s&nbsp;vícečetnými exekucemi. Zaměstnavatelé již nebudou zatěžovaní komunikací s&nbsp;mnoha exekutory a&nbsp;řešením souvisejících problémů. Tím jim odpadne přebytečná administrativní práce související se zaměstnáním osob v&nbsp;exekuci.
-              <br>
-          </div>
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Odstranění klientelistických vazeb</h2>
-              Velcí věřitelé, jejichž byznys spočívá ve skupování pohledávek, mívají exekutory zavázané smlouvami. Nově by exekutora určovat soud, což by vedlo k&nbsp;rozbití klientelistických vazeb mezi exekutory a&nbsp;velkými věřiteli.
-              <br>
-          </div>
-          <div class="medium-12 large-12 columns">&nbsp;</div>
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Lepší dostupnost</h2>
-              Povinný zatížený dluhy bude mít svého exekutora v&nbsp;místě bydliště, čímž se mu zvýší šance svou životní situaci efektivně řešit. Nebude totiž nucen komunikovat s&nbsp;více exekutory zároveň, navíc často z&nbsp;druhého konce republiky. Osobní návštěva či splacení části dluhu v&nbsp;hotovosti už nebude nepřekonatelný problém.
-              <br>
-          </div>
-          <div class="medium-6 large-6 columns">
-              <h2 class="topic color-sec">Nezávislost exekutorů</h2>
-              Exekutor je vykonavatelem veřejné moci a&nbsp;jako takový musí rozhodovat především podle zákona, nezávisle na stranách sporu. Nevybíráme si soudce, policisty, úředníky… I&nbsp;exekutor by tedy měl být nestranný.
-              <br>
-          </div>
-
-          <div class="medium-12 large-12 columns">
-              <br/>
-              <br/>
-              <h2 style="clear:both" class="main-header color-main" id="navrh">
-                <img class="topic-icon" src="static/img/bullet_img.png"/>
-                Přečtěte si legislativní návrh Pirátů!
-              </h2>
-              <p>
-              </p>
-          </div>
-          <div class="medium-12 large-12 columns">
-
-              <div style="text-align: center">
-              <a href="static/zneni-navrhu-lepsich-exekuci.pdf" style="width: 350px; margin-top: 10px; text-align: center; padding: 19px; font-size: 22px; color: white; font-weight:400;" class="c-cta-button c-cta-button--primary color-bg-main">
-              Konsolidované znění návrhu
-              </a>
-              <a href="static/duvodova-zprava-navrhu-lepsich-exekuci.pdf" style="width: 350px; margin-top: 10px; text-align: center; padding: 19px; font-size: 22px; color: white; font-weight:400;" class="c-cta-button c-cta-button--primary color-bg-main">
-              Důvodová zpráva
-              </a>
-              <a href="static/caste-otazky-a-odpovedi-lepsich-exekuci.pdf" style="width: 350px; margin-top: 10px; text-align: center; padding: 19px; font-size: 22px; color: white; font-weight:400;" class="c-cta-button c-cta-button--primary color-bg-main">
-              Časté dotazy a&nbsp;odpovědi
-              </a>
-              </div>
-          </div>
-
-
+        <ul class="c-header-bar-items show-for-medium">
           
-          <div class="medium-12 large-12 columns">
-              <br/>
-              <br/>
-              <h2 style="clear:both" class="main-header color-main" id="komentar">
-                <img class="topic-icon" src="static/img/bullet_img.png"/>
-                Co si myslí dotčení o&nbsp;návrhu Pirátů…?
-              </h2>
-              <div class="citation">
-                „Pirátský návrh je ohromný krok dopředu. Pokud se Pirátům podaří tuto novelu přijmout, bude to největší počin, který by mohli udělat, protože novela exekučního řádu, která přijímá teritorialitu, je naprosto zásadním zákonem. Bez toho se u&nbsp;nás to prostředí nevyčistí.“
-                    <div>&ndash; Radek Hábl, ekonom a&nbsp;autor projektu mapaexekuci.cz</div>
-              </div>
-              <div class="citation">
-                „Pirátský návrh řešení se mi zdá dobrý, protože se zabývá myšlenkou teritoriality, která sama o&nbsp;sobě by mnohé problémy vyřešila.“
-                    <div>&ndash; Jiří Janečka, soudní exekutor</div>
-              </div>
-              <div class="citation">
-                „Vím, že se Piráti snaží zlepšit exekuční řád tak, aby člověk mohl fungovat důstojně, byl zařazen do společnosti a&nbsp;nebylo to pro něj likvidační.“
-                    <div>&ndash; Rostislav Mach, bývalý dlužník</div>
-              </div>
-          </div>
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+            <a href="https://www.facebook.com/pirat.kolarik/" rel="noopener noreferrer" target="_blank" title="Naše stránka na Facebooku">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a></li>
           
           
-          <div class="medium-12 large-12 columns">
-              <br/>
-              <br/>
-              <h2 style="clear:both" class="main-header color-main" id="kontakt">
-                <img class="topic-icon" src="static/img/bullet_img.png"/>
-                Děkujeme, že jste dočetli až sem.
-              </h2>
-          </div>
-          <div class="medium-12 large-12 columns">
-          Snažíme se zapojovat veřejnost a&nbsp;dělat politiku pro 21. století. Děkujeme, že jste toho součástí.
-          </br>
-          </br>
-          <h3>Kontaktní osoba</h3>
-          <b>Lukáš Kolářík</b>, poslanec<br/>
-          lukas.kolarik@pirati.cz, tel.: +420 727 853 151
-          </div>
-
-
-
-          </div> <!-- header-block -->
-
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-
-<div class="row">
-  <div class="medium-12 large-12 columns">
-    <section class="o-section o-section--spaceBot">
-      <div class="o-section-inner">
-        <div class="o-section-block" data-equalizer data-equalize-on="medium">
-          <h1>Chcete sledovat i&nbsp;další dění u&nbsp;Pirátů?</h1>
-          <p>Můžete dostávak další informace emailem, nebo se přímo zapojit 
-          do pirátského hnutí.
-          </p>
-          <div id='do_register_button' style="    text-align: center;">
-              <a href="https://nalodeni.pirati.cz/sledovat-piraty/" style="width: 350px; margin-top: 10px; text-align: center; padding: 9px; font-size: 22px; background-color: #5c81b8;border-color: #5c81b8; color: white;" class="c-cta-button c-cta-button--primary">
-              Sledovat piráty&thinsp;!
-              </a>
-              <a href="https://nalodeni.pirati.cz/jdu-do-toho/" style="width: 350px; margin-top: 10px; text-align: center; padding: 9px; font-size: 22px; background-color: #5cb85c;border-color: #5cb85c; color: white;" class="c-cta-button c-cta-button--primary">
-              Přidat se k&nbsp;nám&thinsp;! <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-              </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-
-<footer class="o-section o-section--tiled o-section--bigger u-inverted u-cf">
-  <div class="o-section-inner">
-    <div class="row">
-      <div class="medium-12 large-3 u-stacked-medium-down columns">
-        <a href="https://www.pirati.cz/">
-          <img src="https://www.pirati.cz/assets/img/brand/logo_napis_white.png" style="width: 170px" alt="Česká pirátská strana" class="u-center-medium-down u-10paddingTop">
-        </a>
-        <p class="u-0margin u-noWrap u-50paddingTop u-smaller-line-height show-for-large">
-          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2018. Všechna práva vyhlazena.
-      </div>
-      <div class="medium-12 large-7 u-stacked-medium-down columns">
-        <div class="row u-custom-gutter">
-          <div class="small-6 medium-3 columns">
-            <nav class="c-vertical-navigation u-center-medium-only">
-              <h3 class="c-vertical-navigation__title"><a href="https://www.pirati.cz/o-nas/">O nás</a></h3>
-              <ul class="c-vertical-navigation-items">
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/lide/">Lidé</a>
-                </li>
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/regiony/">Regiony</a>
-                </li>
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/program/">Program</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="small-6 medium-3 u-mobile-down-clear columns">
-            <nav class="c-vertical-navigation u-center-medium-only">
-              <h3 class="c-vertical-navigation__title"><a href="https://www.pirati.cz/snemovna/tymy/">Makáme</a></h3>
-              <ul class="c-vertical-navigation-items">
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/aktuality/">Aktuality</a>
-                </li>
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/snemovna/">Sněmovna</a>
-                </li>
-                <li class="c-vertical-navigation__item">
-                  <a href="https://www.pirati.cz/pripoj-se/kalendar/">Kalendář</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="small-6 medium-3 columns">
-            <nav class="c-vertical-navigation u-center-medium-only">
-              <h3 class="c-vertical-navigation__title"><a href="https://www.pirati.cz/otevrenost/">Otevřenost</a></h3>
-              <ul class="c-vertical-navigation-items">
-                <li class="c-vertical-navigation__item">
-                  <a href="https://ucet.pirati.cz">Transparentní účet</a>
-                </li>
-                <li class="c-vertical-navigation__item">
-                  <a href="https://smlouvy.pirati.cz">Registr smluv</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-      <div class="medium-12 large-2 u-stacked-medium-down columns u-center-medium-down">
-        <nav class="c-vertical-navigation">
-          <h3 class="c-vertical-navigation__title">Buďte s námi v síti</h3>
-          <ul class="c-vertical-navigation-items c-vertical-navigation-items--horizontal">
-            <li class="c-vertical-navigation__item">
-              <a href="https://www.facebook.com/ceska.piratska.strana/" rel="noopener noreferrer" title="Facebook - Česká pirátská strana">
-                <i class="fa fa-facebook c-icon c-icon--rounded c-icon--facebook" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="c-vertical-navigation__item">
-              <a href="https://www.twitter.com/PiratskaStrana" rel="noopener noreferrer" title="Twitter - Česká pirátská strana">
-                <i class="fa fa-twitter c-icon c-icon--rounded c-icon--twitter" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="c-vertical-navigation__item">
-              <a href="https://www.instagram.com/pirati.cz/" rel="noopener noreferrer" title="Instagram - Česká pirátská strana">
-                <i class="fa fa-instagram c-icon c-icon--rounded c-icon--instagram" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <p class="u-10paddingTop u-maxWidth80percent u-smaller-line-height hide-for-large">
-          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2018. Všechna práva vyhlazena.
-      </div>
-    </div>
-  </div>
-</footer>
-<aside class="o-section o-section--bigger c-contact-bar u-inverted u-center-medium-down">
-  <div class="o-section-inner">
-    <div class="row">
-      <div class="small-12 columns">
-        <header class="c-contact-bar-header u-stacked-medium-down">
-          <h3 class="c-contact-bar__heading"> </h3>
-        </header>
-        <ul class="c-contact-bar-items u-stacked-medium-down">
-          <li class="c-contact-bar__item u-stacked-medium-down">
-            <div class="c-contact-bar__section">&nbsp;</div>
-            <div class="c-contact-bar__description">
-            </div>
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+            <a href="https://www.twitter.com/kolarik_lukas" rel="noopener noreferrer" target="_blank" title="Náš účet na Twitteru">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
           </li>
-          <li class="c-contact-bar__item u-stacked-medium-down">
-            <div class="c-contact-bar__section">  </div>
-            <div class="c-contact-bar__description">  </div>
+          
+          
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+            <a href="/feed.xml" rel="noopener noreferrer" target="_blank" title="Články tohoto webu v RSS">
+              <i class="fa fa-rss" aria-hidden="true"></i>
+            </a>
           </li>
+          
+          
+          
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+              <a href=https://plus.google.com/u/0/+piratskastrana rel="noopener noreferrer" target="_blank" title="Google Plus - Česká pirátská strana">
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <div class="c-header-bar-divider show-for-large"></div>
+
+        <ul class="c-header-bar-items show-for-large">
+          
+          <li class="c-header-bar__item">
+            <a href="https://www.pirati.cz" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">pirati.cz</span>
+            </a>
+          </li>
+          
+          <li class="c-header-bar__item">
+            <a href="https://wiki.pirati.cz" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">wiki.pirati.cz</span>
+            </a>
+          </li>
+          
+          <li class="c-header-bar__item">
+            <a href="https://www.piratskelisty.cz" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">Pirátské listy</span>
+            </a>
+          </li>
+          
         </ul>
       </div>
     </div>
   </div>
 </aside>
 
-    <script>
-/* Global variables from jekyll */
-var api_people = "";
-var api_search = "";
-var api_tags = "";
-var api_regions = "";
-var snippet_profile = "";
-var page_url = "";
-var page_layout = "";
-var page_garant = "";
-var page_leader = "";
-var page_contact ="";
-var page_tags = [];
-</script>
-<div class='scrolltop'>
-    <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+
+    
+        <div class="c-top-bar">
+  <div class="row">
+    <div class="columns small-12">
+      <div class="c-top-bar__body">
+        <div class="c-top-bar__brand">
+          <a href="/" class="c-top-bar__brand-link">
+            <img src="/assets/img/brand/logo_napis_white.svg" alt='Česká pirátská strana' class="c-top-bar__brand-image u-center-medium-down u-stacked">
+          </a>
+        </div>
+
+	
+        <div class="c-top-bar__search">
+          <div class="__vue-root" data-app="SiteSearch">
+            <!-- this will get replaced by Vue.js content, placeholder only -->
+            <div class="c-search c-top-bar__search-container">
+              <input class="c-search__input c-top-bar__search-input" type="search" id="search" placeholder="Hledaný výraz">
+              <button type="button" class="c-search__confirm c-top-bar__search-confirm" id="searchsub"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+	
+
+        <div id="responsive-menu" class="c-responsive-menu">
+          <ul class="c-responsive-menu__items" data-dropdown-menu="">
+            
+            <li class="c-responsive-menu__item hide-for-medium ">
+              <a href="/">Úvod</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/aktuality/">Aktuality</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/duvody-pro-uzakoneni/">Důvody pro uzákonění</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/legislativni-navrh/">Legislativní návrh</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="c-responsive-menu-toggle hide-for-large">
+          <span data-responsive-toggle="responsive-menu" id="menuTogge" data-hide-for="large">
+            <button class="c-responsive-menu-toogle__button" type="button" data-toggle="">
+              <span class="c-responsive-menu-toggle__caption">Menu</span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<script src="static/js/vendor/what-input.js"></script>
-<script src="static/js/vendor/foundation.min.js"></script>
+        
+            
+  
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+
+        
+    
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="row c-hp-banner">
+  <div class="small-12 columns">
+    <a href="/duvody-pro-uzakoneni/" title="Důvody pro uzákonění" class="c-hp-banner__link">
+      
+      
+        <picture class="c-hp-banner__media">
+          <source media="(min-width: 640px)" srcset="/assets/55c3ba-1ea08a99a1a61a54dd0a53fa0297893e1fbb62152f2b8b835fc58857fa66a283.png">
+          <img src="/assets/b08887-3f518fc0f472fafdd8ff40e1fd2aa31bc2b87b981283a67ee9bdf58990e0f54a.png" alt="Důvody pro uzákonění">
+        </picture>
+      
+    </a>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="medium-12 large-8 columns">
+    <section class="o-section o-section--spaceBot">
+      <div class="o-section-inner o-section-inner--leftBlock">
+        <header class="o-section-header">
+          <h1 class="o-section__heading t-h1-super">Jak na spravedlivější exekuční systém?</h1>
+        </header>
+
+        <p><iframe width="100%" height="480" src="https://www.youtube.com/embed/gEcMdIC4xPg" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+        <p class="text-justify"><em>„V České republice je skoro 900 tisíc lidí v exekuci. Problém přitom nezatěžuje jen povinné (dlužníky) a jejich nejbližší rodinné okolí, ale i celou ekonomiku a všechny dotčené instituce. Současná praxe omezuje vymahatelnost práva; nároky věřitelů často zůstávají neuspokojeny, dotčené instituce jsou zahlceny administrativou a narušován je i základní ústavní požadavek na nestrannost exekutora a spravedlivý proces.</em></p> 
+        <p class="text-justify"><em>Piráti pokládají téma exekucí za jednu ze svých klíčových agend, kterým se aktivně věnují, a nejinak tomu bude i v budoucnu. Navrhujeme sjednocení všech pohledávek pod jednoho exekutora, a to podle místa pobytu povinného. Toto opatření sníží náklady, zlepší komunikaci mezi exekutorem a povinným, zvýší vymahatelnost práva a rozbije klientelistické vazby mezi velkými obchodníky s pohledávkami a exekutory.“</em></p>
+        <p>Lukáš Kolářík, poslanec Parlamentu České republiky</p>
+
+        <h2>Novinky</h2>
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/snemovna-souhlasi-s-zrusenim-detskych-exekuci/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/snemovna-souhlasi-s-zrusenim-detskych-exekuci/">
+          <img src="/assets/b6e1c3-39001c5934526739c3bba957af9065d7def18cbecee3f7c3c4936f384928d034.jpg" alt="Vláda souhlasí s návrhem na zrušení dětských exekucí">
+        </a>
+        <meta itemprop="url" content="/assets/b6e1c3-39001c5934526739c3bba957af9065d7def18cbecee3f7c3c4936f384928d034.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/snemovna-souhlasi-s-zrusenim-detskych-exekuci/" itemprop="url">Vláda souhlasí s návrhem na zrušení dětských exekucí</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 6. května 2019 – Piráti už před časem společně s ČSSD, ANO a KDU-ČSL předložili novelu občanského zákoníku, která převádí dětské dluhy na jejich zákonné zástupce. Návrh se setkal s širokou podporou....</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/snemovna-souhlasi-s-zrusenim-detskych-exekuci/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 06.05.2019
+        <meta itemprop="datePublished" content="2019-05-06T00:00:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/snemovna-ignoruje-statisice-lidi-v-exekuci/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/snemovna-ignoruje-statisice-lidi-v-exekuci/">
+          <img src="/assets/df9f4b-9d1a9fa6b91ef2b995c9a62949689da6325269bd7d23563e5c00a8f5a8d569e0.jpg" alt="Sněmovna ignoruje statisíce lidí v exekuci">
+        </a>
+        <meta itemprop="url" content="/assets/df9f4b-9d1a9fa6b91ef2b995c9a62949689da6325269bd7d23563e5c00a8f5a8d569e0.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/snemovna-ignoruje-statisice-lidi-v-exekuci/" itemprop="url">Sněmovna ignoruje statisíce lidí v exekuci</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 23. dubna 2019 – Poslanecká sněmovna ve svém hlasování už potřetí odmítla projednat pirátskou novelu Exekučního řádu. Stalo se tak i poté, co rezignoval ministr spravedlnosti Jan Kněžínek a zákonodárci nemají jinou...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/snemovna-ignoruje-statisice-lidi-v-exekuci/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 23.04.2019
+        <meta itemprop="datePublished" content="2019-04-23T00:00:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/teritorialita-jako-cesta-ke-svobode/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/teritorialita-jako-cesta-ke-svobode/">
+          <img src="/assets/62d555-ab3c0f6701b3e02cfc6f40c8049fd04633f3e193cfbe19eaddce4b9a28831c7b.jpg" alt="Teritorialita jako cesta k nezávislosti soudních exekutorů">
+        </a>
+        <meta itemprop="url" content="/assets/62d555-ab3c0f6701b3e02cfc6f40c8049fd04633f3e193cfbe19eaddce4b9a28831c7b.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/teritorialita-jako-cesta-ke-svobode/" itemprop="url">Teritorialita jako cesta k nezávislosti soudních exekutorů</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 20. dubna 2019 – Exekutorská komora vydává vlastní odborný časopis s názvem Komorní listy. V novém čísle mohou čtenáři najít článek od pirátského poslance Lukáše Koláříka, který zevrubně popisuje parametry pirátské novely...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/teritorialita-jako-cesta-ke-svobode/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 20.04.2019
+        <meta itemprop="datePublished" content="2019-04-20T00:00:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/ministr-spravedlnosti-konci/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/ministr-spravedlnosti-konci/">
+          <img src="/assets/ec8415-00afa24a579f86eb5319286fd4796ec8709a7642aa78a5dd9d42f9e91a80bb34.jpg" alt="Ministr spravedlnosti Kněžínek končí. Jaký je osud vládní novely?">
+        </a>
+        <meta itemprop="url" content="/assets/ec8415-00afa24a579f86eb5319286fd4796ec8709a7642aa78a5dd9d42f9e91a80bb34.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/ministr-spravedlnosti-konci/" itemprop="url">Ministr spravedlnosti Kněžínek končí. Jaký je osud vládní novely?</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 18. dubna 2019 – Resort spravedlnosti se znovu dočká obměny. Po deseti měsících v čele ministerstva končí Jan Kněžínek, se kterým Piráti usilovně pracovali na novelizaci Exekučního řádu. Vystřídat jej má Marie...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/ministr-spravedlnosti-konci/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 18.04.2019
+        <meta itemprop="datePublished" content="2019-04-18T00:00:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/stretnuti-exekutoru/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/stretnuti-exekutoru/">
+          <img src="/assets/3186b5-b98db8c791abebce0ff0a85d18e8a4f241464a2aca1cceea5a1194486210ed7a.jpg" alt="Střetnutí exekutorů s veřejností vyústilo v konkrétní závazky. Sněmovní seminář přitáhl pozornost">
+        </a>
+        <meta itemprop="url" content="/assets/3186b5-b98db8c791abebce0ff0a85d18e8a4f241464a2aca1cceea5a1194486210ed7a.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/stretnuti-exekutoru/" itemprop="url">Střetnutí exekutorů s veřejností vyústilo v konkrétní závazky. Sněmovní seminář přitáhl pozornost</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 11. března 2019 – Usilovná jednání s Ministerstvem spravedlnosti nesou ovoce. Před týdnem slíbil šéf resortu Jan Kněžínek na schůzi iniciované pirátským poslancem Lukášem Koláříkem předložení vládní novely na začátku června. Dnes...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/stretnuti-exekutoru/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 11.03.2019
+        <meta itemprop="datePublished" content="2019-03-11T00:00:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/ministerstvo-spravedlnosti-oprasuje-stary-paskvil/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/ministerstvo-spravedlnosti-oprasuje-stary-paskvil/">
+          <img src="/assets/9eb03d-012a257e47860a73fc27c3c8bb02b375c1b30790c2cc23deaf9a65d4482783bc.jpg" alt="Ministerstvo spravedlnosti oprašuje starý paskvil. Vláda si chce přivlastnit zásluhy">
+        </a>
+        <meta itemprop="url" content="/assets/9eb03d-012a257e47860a73fc27c3c8bb02b375c1b30790c2cc23deaf9a65d4482783bc.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/ministerstvo-spravedlnosti-oprasuje-stary-paskvil/" itemprop="url">Ministerstvo spravedlnosti oprašuje starý paskvil. Vláda si chce přivlastnit zásluhy</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Praha, 18. prosince 2018 – Jsou to pouze dva měsíce od doby, kdy Piráti představili novelu Exekučního řádu zavádějící tzv. teritorialitu. Vláda dala pirátskému návrhu negativní stanovisko, aby jako již tradičně mohla přijít...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/ministerstvo-spravedlnosti-oprasuje-stary-paskvil/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 18.12.2018
+        <meta itemprop="datePublished" content="2018-12-18T00:00:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Mediální odbor
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+        <div class="c-article-listing__nextbox">
+          <a href="/aktuality/" rel="next" class="button expanded large">Další články</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <div class="medium-12 large-4 columns">
+    <aside class="o-section">
+  <div class="o-section-inner o-section-inner--rightBlock">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <div class="o-section-block show-for-medium">
+  <ul class="c-widget-accordion" data-accordion="" data-allow-all-closed="true">
+    <li class="c-widget-accordion-item is-active" data-accordion-item="">
+      <a href="#" class="c-widget-accordion-link c-widget-accordion-link--fb">
+        <span class="c-widget-accordion__title">Facebook</span>
+      </a>
+      <div class="c-widget-accordion-content" data-tab-content="">
+        <div class="fb-page" data-href="https://www.facebook.com/pirat.kolarik/" data-tabs="timeline" data-width="500" data-height="550" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/pirat.kolarik/">
+              <a href="https://www.facebook.com/pirat.kolarik/">
+                Najdete nás na Facebooku:<br>
+                Lepší systém exekucí
+              </a>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+        
+        
+        
+        
+
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+    
+
+    
+  </div>
+</aside>
+
+  </div>
+  
+</div>
+
+      </div>
+    </div>
+
+    <a href="https://github.com/pirati-web/exekuce.pirati.cz/edit/master/index.html" class="c-suggest-improvement show-for-medium hide-for-print">
+  <i class="fa fa-pencil"></i>
+  Navrhni úpravu
+</a>
+
+<footer class="o-section o-section--darker o-section--bigger u-inverted u-cf">
+  <div class="o-section-inner">
+    <div class="row">
+      <div class="medium-12 large-3 u-stacked--medium-down u-center--medium-down columns">
+        <img src="/assets/img/brand/logo_napis_white.svg" alt='Česká pirátská strana' class="logo u-center-medium-down u-stacked">
+        <p class="u-noWrap u-stacked u-smaller-line-height show-for-large">
+          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2019. Všechna práva vyhlazena.
+          <br>Sdílejte a nechte ostatní sdílet za stejných
+          <br>podmínek.
+      </div>
+      <div class="medium-12 large-6 u-stacked--medium-down u-center--medium-down columns show-for-medium">
+        <div class="row">
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Připoj se</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://nalodeni.pirati.cz">Naloďte se na palubu !</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/kontakt/">Dej nám vědět</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Volby 2018</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/komunalni-volby-2018/povolebni-strategie/">Povolební strategie</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/komunalni-volby-2018/">Kandidátka</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Otevřenost</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://ucet.pirati.cz">Transparentní účet</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://smlouvy.pirati.cz">Registr smluv</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://wiki.pirati.cz/fo/otevrene_ucetnictvi">Otevřené účetnictví</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+        </div>
+      </div>
+      <div class="medium-12 large-3 u-stacked--medium-down columns u-center--medium-down">
+        <nav class="c-vertical-navigation u-stacked">
+          <h3 class="c-vertical-navigation__title">Buďte s námi v síti</h3>
+          <ul class="c-vertical-navigation-items c-vertical-navigation-items--horizontal">
+            
+            <li class="c-vertical-navigation__item">
+              <a href="https://www.facebook.com/pirat.kolarik/" rel="noopener noreferrer" title="Facebook - Lepší systém exekucí">
+                <i class="fa fa-facebook c-icon c-icon--big" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            
+            <li class="c-vertical-navigation__item">
+              <a href="https://www.twitter.com/kolarik_lukas" rel="noopener noreferrer" title="Twitter - Lepší systém exekucí">
+                <i class="fa fa-twitter c-icon c-icon--big" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            
+            
+            <li class="c-vertical-navigation__item">
+              <a href="https://plus.google.com/u/0/+piratskastrana" rel="noopener noreferrer" title="Google Plus - Lepší systém exekucí">
+                <i class="fa fa-google-plus c-icon c-icon--big" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p class=" u-stacked u-maxWidth80percent u-smaller-line-height hide-for-large">
+          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2019. Všechna práva vyhlazena.
+          <br> Sdílejte a nechte ostatní sdílet za stejných podmínek.
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<div class="__vue-root" data-app="ScrollTop"></div>
+
+    
+<link rel="stylesheet" href="/assets/js/main.e43cb7b6b6c310f72648.0.css" />
+<link rel="stylesheet" href="/assets/js/main.e43cb7b6b6c310f72648.css" />
+<script src="/assets/js/0.main.e43cb7b6b6c310f72648.js"></script>
+<script src="/assets/js/main.e43cb7b6b6c310f72648.js"></script>
+
+
 <script>
-$(function(){
-  // responsive menu
-  $(document).foundation();
-});
+  /* Facebook */
+  window.fbAsyncInit = function() {
+      FB.init({
+      appId      : '1526197851008996',
+      xfbml      : true,
+      version    : 'v2.5'
+      });
+  };
+
+  (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
 </script>
 
- 
-</body>
+
+
+<script>
+  /* Twitter */
+  window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      t._e = [];
+      t.ready = function(f) {
+      t._e.push(f);
+      };
+      return t;
+  }(document, "script", "twitter-wjs"));
+</script>
+
+
+
+
+
+  </body>
 
 </html>
-

@@ -1,1 +1,0 @@
-# exekuce.pirati.cz

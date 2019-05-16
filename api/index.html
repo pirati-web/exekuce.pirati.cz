@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="">
+  <head>
+    
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lepší systém exekucí</title>
+    <meta name="author" content="Česká pirátská strana" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-128x128.png" sizes="128x128">
+    <link rel="alternate" type="application/rss+xml" title="Lepší systém exekucí RSS" href="/feed.xml">
+    <meta name="application-name" content="Lepší systém exekucí">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="/assets/img/favicon/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/assets/img/favicon/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/assets/img/favicon/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/assets/img/favicon/mstile-310x310.png">
+    <meta property="og:url"           content="http://0.0.0.0:4000/api/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Lepší systém exekucí" />
+    <meta property="og:description"   content="" />
+    
+    <meta property="og:image"         content="http://0.0.0.0:4000/assets/img/brand/logo-round.png" />
+    
+    <!-- Fonts -->
+    
+    <!-- API Mapy.cz that has to be in the header -->
+    
+
+    
+    
+</head>
+
+
+  <body>
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 id="piraticzapi"><a href="/">pirati.cz</a>/api</h1>
+
+<p>Přístupné je:</p>
+
+<ul>
+  <li>sitemap: <a href="/sitemap.xml">sitemap.xml</a></li>
+  <li>aktuality: <a href="/api/posts.json">api/posts.json</a></li>
+  <li>lidé: <a href="/api/people.json">api/people.json</a></li>
+  <li>tags <a href="/api/tags.json">api/tags.json</a></li>
+  <li>stručný obsah <a href="/api/search.json"> api/search.json</a></li>
+</ul>
+
+<h2 id="přístup">Přístup</h2>
+
+<p><strong>JavaScript</strong>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/api/search.json'</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">done</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Úspěch:'</span><span class="p">);</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+    <span class="p">})</span>
+    <span class="p">.</span><span class="nx">fail</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Error:'</span><span class="p">);</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p><strong>Python</strong>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">urlopen</span>
+<span class="kn">from</span> <span class="nn">json</span> <span class="kn">import</span> <span class="n">loads</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="s">'http://localhost:4000/api/search.json'</span>
+
+<span class="n">response</span> <span class="o">=</span> <span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">)</span>
+<span class="n">var</span> <span class="o">=</span> <span class="n">loads</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</code></pre></div></div>
+
+      </div>
+    </div>
+  </body>
+</html>
