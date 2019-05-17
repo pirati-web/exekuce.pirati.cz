@@ -1,0 +1,52 @@
+top:
+  - link: "pirati.cz"
+    url:  "https://www.pirati.cz"
+    icon: "fa fa-home"
+  - link: "wiki.pirati.cz"
+    url:  "https://wiki.pirati.cz"
+    icon: "fa fa-home"
+  - link: "Pirátské listy"
+    url:  "https://www.piratskelisty.cz"
+    icon: "fa fa-newspaper-o"
+
+main:
+  - link: /
+    name: Úvod
+    class: hide-for-medium    
+  - link: /aktuality/
+    name: Aktuality
+    match: aktuality         
+  - link: /legislativni-navrh/
+    name: Legislativní návrh
+    match: legislativni-navrh
+  - link: /duvody-pro-uzakoneni/
+    name: Důvody pro uzákonění
+    match: duvody-pro-uzakoneni
+  - link: http://mapaexekuci.cz
+    name: Mapa exekucí
+    match: mapa-exekuci
+
+bottom:
+  - class: small-12 medium-4
+    title: Připoj se
+    links:
+      - link: https://nalodeni.pirati.cz
+        name: Naloďte se na palubu !
+      - link: /kontakt/
+        name: Dej nám vědět
+  - class: small-12 medium-4
+    title: Volby 2018
+    links:
+      - link: /komunalni-volby-2018/povolebni-strategie/
+        name: Povolební strategie
+      - link: /komunalni-volby-2018/
+        name: Kandidátka     
+  - class: small-12 medium-4
+    title: Otevřenost
+    links:
+      - link: https://ucet.pirati.cz
+        name: Transparentní účet
+      - link: https://smlouvy.pirati.cz
+        name: Registr smluv
+      - link: https://wiki.pirati.cz/fo/otevrene_ucetnictvi
+        name: Otevřené účetnictví

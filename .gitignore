@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+.bundle
+Gemfile.lock
+vendor
+assets/img/.DS_Store
+assets/img/articles/.DS_Store
+assets/.DS_Store
+.DS_Store

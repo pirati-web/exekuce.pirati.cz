@@ -1,78 +1,16 @@
+---
+---
 [
-  
-    { "label": "Vláda souhlasí s návrhem na zrušení dětských exekucí", "value": "/tiskove-zpravy/snemovna-souhlasi-s-zrusenim-detskych-exekuci/"},
-  
-    { "label": "Sněmovna ignoruje statisíce lidí v exekuci", "value": "/tiskove-zpravy/snemovna-ignoruje-statisice-lidi-v-exekuci/"},
-  
-    { "label": "Teritorialita jako cesta k nezávislosti soudních exekutorů", "value": "/tiskove-zpravy/teritorialita-jako-cesta-ke-svobode/"},
-  
-    { "label": "Ministr spravedlnosti Kněžínek končí. Jaký je osud vládní novely?", "value": "/tiskove-zpravy/ministr-spravedlnosti-konci/"},
-  
-    { "label": "Střetnutí exekutorů s veřejností vyústilo v konkrétní závazky. Sněmovní seminář přitáhl pozornost", "value": "/tiskove-zpravy/stretnuti-exekutoru/"},
-  
-    { "label": "Ministerstvo spravedlnosti oprašuje starý paskvil. Vláda si chce přivlastnit zásluhy", "value": "/tiskove-zpravy/ministerstvo-spravedlnosti-oprasuje-stary-paskvil/"},
-  
-    { "label": "Vláda kašle na milion lidí v exekuci, shodila ze stolu pirátskou novelu exekučního řádu", "value": "/tiskove-zpravy/exekucni-rad-piratska-novela-neprosla-vladou/"},
-  
-  
-  
-    { "label": "Doprava", "value": "/komunalni-volby-2018/program/doprava/"},
-  
-    { "label": "Kultura, volný čas a sport", "value": "/komunalni-volby-2018/program/kultura/"},
-  
-    { "label": "Otevřená radnice v moderním městě", "value": "/komunalni-volby-2018/program/radnice/"},
-  
-    { "label": "Školství", "value": "/komunalni-volby-2018/program/skolstvi/"},
-  
-    { "label": "Sociální služby", "value": "/komunalni-volby-2018/program/socialni-sluzby/"},
-  
-    { "label": "Územní rozvoj, bydlení", "value": "/komunalni-volby-2018/program/uzemni-rozvoj/"},
-  
-    { "label": "Zdravotnictví, bezpečnost", "value": "/komunalni-volby-2018/program/zdravotnictvi/"},
-  
-    { "label": "Životní prostředí", "value": "/komunalni-volby-2018/program/zivotni-prostredi/"},
-  
-  
-    { "label": "", "value": "/404/"},
-  
-    { "label": "Aktuality", "value": "/aktuality/"},
-  
-    { "label": "", "value": "/"},
-  
-    { "label": "Pirátské listy Prahy 11", "value": "/piratske-listy/"},
-  
-    { "label": "Články podle tagu", "value": "/tags/"},
-  
-    { "label": "Důvody pro uzákonění", "value": "/duvody-pro-uzakoneni/"},
-  
-    { "label": "Zápisy", "value": "/zapisy/"},
-  
-    { "label": "Legislativní návrh", "value": "/legislativni-navrh/"},
-  
-    { "label": "Naši lidé", "value": "/lide/"},
-  
-    { "label": "", "value": "/kontakt/"},
-  
-    { "label": "", "value": "/api/"},
-  
-    { "label": "Radnice", "value": "/radnice/"},
-  
-    { "label": "", "value": "/api/people.json"},
-  
-    { "label": "", "value": "/api/posts.json"},
-  
-    { "label": "", "value": "/api/search.json"},
-  
-    { "label": "", "value": "/api/tags.json"},
-  
-    { "label": "Zápisy - stránka 2", "value": "/zapisy/2/"},
-  
-    { "label": "", "value": "/clenove/"},
-  
-    { "label": "", "value": "/redirects.json"},
-  
-    { "label": "", "value": "/robots.txt"},
-  
-    { "label": "", "value": "/feed.xml"}
-  
+  {% for post in site.posts %}
+    { "label": "{{ post.title }}", "value": "{{ post.url | relative_url }}"},
+  {% endfor %}
+  {% for person in site.people %}
+    { "label": "{{ person.name }}", "value": "{{ person.url | relative_url }}"},
+  {% endfor %}
+  {% for page in site.program %}
+    { "label": "{{ page.title }}", "value": "{{ page.url | relative_url }}"},
+  {% endfor %}
+  {% for page in site.pages %}
+    { "label": "{{ page.title }}", "value": "{{ page.url | relative_url }}"}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
