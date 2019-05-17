@@ -1,1 +1,1 @@
-Sitemap: https://exekuce.pirati.cz/sitemap.xml
+Sitemap: https://exekuce.pirati.cz/feed.xml
