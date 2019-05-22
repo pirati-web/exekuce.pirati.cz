@@ -16,4 +16,4 @@ author:       Mediální odbor
  
 *„Téměř před rokem jsme Poslanecké sněmovně předložili novelu exekučního řádu, která zavádí princip jeden dlužník rovná se jeden exekutor v místě bydliště. Vláda nám dala nesouhlasné stanovisko a koaliční poslanci odmítají bod projednat na plénu. Nyní tedy předkládáme jasná čísla, která volají po politickém řešení. Takovém, které jsme navrhli,”* komentuje situaci poslanec Pirátů Lukáš Kolářík a dodává: *„Vláda má řešení dluhů ve svém programovém prohlášení, ale resort spravedlnosti, který má toto na starosti, se dočkal už čtvrté změny vedení. Vyzýváme proto všechny zákonodárce, aby už nečekali na návrhy ministerstva a podpořili projednání naší novely při první možné příležitosti.”*
  
-Piráti výsledky průzkumu veřejného mínění dnes zveřejní v detailní podobě na stránce exekuce.pirati.cz s možností jejich volného šíření a využití získaných dat. 
+**Piráti výsledky průzkumu veřejného mínění dnes zveřejní v detailní podobě na stránce exekuce.pirati.cz s možností jejich volného šíření a využití získaných dat.**
