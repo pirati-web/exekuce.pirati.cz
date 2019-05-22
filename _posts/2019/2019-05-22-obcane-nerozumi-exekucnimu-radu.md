@@ -4,7 +4,7 @@ category:     blog
 tags:         sněmovna legislativa exekuce
 layout:       post
 title:        Občané nerozumí exekučnímu řádu a volají po jeho zjednodušení, ukázal unikátní průzkum zpracovaný pro Piráty
-#image: articles/2019/2019-05-22-obcane-nerozumi-exekucnimu-radu.jpg
+image: articles/2019/2019-05-22-obcane-nerozumi-exekucnimu-radu.jpg
 author:       Mediální odbor
 ---
 
