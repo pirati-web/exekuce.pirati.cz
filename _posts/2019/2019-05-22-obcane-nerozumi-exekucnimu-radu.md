@@ -7,8 +7,6 @@ title:        Občané nerozumí exekučnímu řádu a volají po jeho zjednodu�
 image: articles/2019/2019-05-22-obcane-nerozumi-exekucnimu-radu.jpg
 author:       Mediální odbor
 ---
-
-
  
 **Praha, 22. května 2019 – Jak Česko vnímá exekuce? Tato otázka se stala jádrem semináře v Poslanecké sněmovně, kde Piráti představili výsledky průzkumu veřejného mínění, který si nechali vypracovat nezávislou agenturou NMS Market Research. Z průzkumu vyplývá, že 79 procent občanů volá po řešení současné právní úpravy. Občané se totiž v systému nevyznají a 69 procent dokonce zastává stanovisko, že by měl exekutora vybírat stát na základě trvalého bydliště dlužníka.**
  
@@ -17,3 +15,6 @@ author:       Mediální odbor
 *„Téměř před rokem jsme Poslanecké sněmovně předložili novelu exekučního řádu, která zavádí princip jeden dlužník rovná se jeden exekutor v místě bydliště. Vláda nám dala nesouhlasné stanovisko a koaliční poslanci odmítají bod projednat na plénu. Nyní tedy předkládáme jasná čísla, která volají po politickém řešení. Takovém, které jsme navrhli,”* komentuje situaci poslanec Pirátů Lukáš Kolářík a dodává: *„Vláda má řešení dluhů ve svém programovém prohlášení, ale resort spravedlnosti, který má toto na starosti, se dočkal už čtvrté změny vedení. Vyzýváme proto všechny zákonodárce, aby už nečekali na návrhy ministerstva a podpořili projednání naší novely při první možné příležitosti.”*
  
 **Piráti výsledky průzkumu veřejného mínění dnes zveřejní v detailní podobě na stránce exekuce.pirati.cz s možností jejich volného šíření a využití získaných dat.**
+
+- [Prezentace](/assets/pdf/2019-05-22-prezentace.pdf)
+- [Závěrečná zpráva](/assets/pdf/2019-05-22-zaverecna-zprava.pdf)
