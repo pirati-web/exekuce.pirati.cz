@@ -4,7 +4,7 @@ category:     blog
 tags:         celostátní sněmovna legislativa
 layout:       post
 title:        "Sněmovna přijala oddlužení pro dětské dlužníky"
-image:        /assets/img/articles/2019/lukas-kolarik1.jpg
+image:        articles/2019/lukas-kolarik1.jpg
 author:       Lukáš Kolařík
 ---
 
