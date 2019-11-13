@@ -1,17 +1,18 @@
 ---
-date:         2019-07-10
+date:         2019-11-07
 category:     blog
-tags:         celostátní sněmovna legislativa
+tags:         celostátní legislativa exekuce  
 layout:       post
-title:        "Sněmovna přijala oddlužení pro dětské dlužníky"
+title:        "Sněmovna podpořila pirátskou novelu exekucí"
 image:        articles/2019/lukas-kolarik1.jpg
-author:       Lukáš Kolařík
+author:       Mediální odbor
 ---
 
-Praha, 10. července 2019 – Poslanecká sněmovna dnes schválila Piráty spolupředloženou novelu insolvenčního zákona, která má ulehčit oddlužení těm, kteří se zadlužili ještě jako děti. Soudy tak dle nových pravidel budou moci rychleji oddlužit oběti závratných sum, které naboptnaly na původně stokorunových pohledávkách neřešených zákonnými zástupci nezletilých. Zákon podpořený všemi sněmovními stranami nyní putuje do Senátu.
 
-> „Neustále se mluví o statisících Čechů, kteří jsou v exekucích. Jsem rád, že se nám daří rozplétat, kdo ti dlužníci vlastně jsou a jak jim pomoci, protože si každá skupina zaslouží svůj vlastní přístup. Díky tomuto zákonu pomůžeme těm, kteří si nesou dluhy z dětství. Pokračujeme v trendu snižování počtu lidí v dluhové pasti,” uvádí spolupředkladatel novely, pirátský poslanec Lukáš Kolářík a dodává: „Tímto krokem doplňujeme vládu, která ve své insolvenční novele z loňského roku na dětské dlužníky zapomněla.“ 
+Praha, 6. listopadu 2019 – Novela exekučního řádu prošla Sněmovnou. Piráty iniciovaná diskuze o změně systému vymáhání dluhů se nyní přesune do výborů, kde budou poslanci debatovat o sloučení poslaneckého a vládního návrhu. Piráti prosazují princip jeden dlužník = jeden exekutor v místě bydliště. Ten má do současného složitého systému přinést přehlednost, odlehčit zaměstnavatelům a usnadnit dlužníkům splatit jejich závazky.
+ 
+> „Na současném systému exekucí tratí jak věřitelé, dlužníci a exekutoři, tak stát, zaměstnavatelé a úřady. Jsme rádi, že to uznala i Sněmovna. Zároveň jsme podpořili novelu Ministerstva spravedlnosti ČR, která lepí některé problémy současné právní úpravy. Přesto nemůžeme souhlasit s jimi navrženou formou slučování exekucí u exekutora vybraného prvním veřitelem,” uvádí autor poslanecké novely, pirátský poslanec Lukáš Kolářík a dodává: „Pokud se ve výborech povede sloučit náš a vládní návrh, může to situaci v oblasti exekucí posunout správným směrem. Pakliže ale v návrhu ministerstva zůstane tzv. systém Sněhulák, který posiluje pozici exekutorských maxiúřadů, nemůžeme novelu podpořit.” 
+ 
+Piráti požadují, aby exekutora, který je vykonavatelem státní moci, vybíral nestranný a nezávislý soud.  Systém Sněhulák zachovává oproti pirátskému návrhu výběr exekutora věřitelem. K tomu však posiluje pozici exekutora na úkor dalších věřitelů, kteří by po tom samém dlužníkovi vymáhali dluh.
 
-Návrh, který dnes Sněmovna schválila, umožňuje dospělým občanům snazší oddlužení během tří let v případě, kdy mají alespoň dvě třetiny pohledávek z doby před dosažením plnoletosti. Nově schválená pravidla by se dotkla všech insolvenčních řízení zahájených po 31. květnu 2019 společně s novými pravidly pro oddlužení seniorů nebo zdravotně postižených. 
-
-> „Jedná se o vzácnou událost, kdy vláda a priori neodmítá spolupráci s opozicí. Konečně pochopili, že jsme konstruktivní a v první řadě nám jde o reálné řešení problémů. Díky tomu schválíme zákon třeba o rok dříve, než by tomu bylo normálně, což značně uleví tisícům zoufalých občanů,” uzavírá Kolářík.
+> „Slučování exekucí podle představy resortu spravedlnosti by současný systém nezlepšilo, naopak zhoršilo. Stát by tím podpořil boptnání největších exekučních úřadů typu Přerov, které už dnes nemohou čistě logicky komunikovat se všemi dlužníky a tedy hledat efektivní řešení k moření pohledávek. To je kamenem úrazu všech tragických příběhů, kdy lidé přicházejí o majetek a končí na ulici i přes to, že mají vůli své pohledávky splácet,” uzavírá Kolářík.
