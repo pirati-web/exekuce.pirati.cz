@@ -3,7 +3,7 @@ date:         2015-07-23
 category:     blog
 tags:         celostátní legislativa exekuce  
 layout:       post
-title:        "Za co všechno si člověk zaslouží exekuci?
+title:        Za co všechno si člověk zaslouží exekuci?
 image:        articles/2015/2015-07-23-za-co-vsechno-si-clovek-zaslouzi-exekuci.jpg
 author:       Olga Richterová
 ---
