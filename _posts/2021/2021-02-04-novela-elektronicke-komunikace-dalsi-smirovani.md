@@ -4,7 +4,7 @@ category:     blog
 tags:         digitalizace kontrola-moci-a-mocných legislativa
 layout:       post
 title:        "Piráti odmítají, aby měl další úřad možnost šmírovat mobilní telefony občanů"
-image:        /assets/img/articles/2021/martin-jiranek00.jpg
+image:        articles/2021/martin-jiranek00.jpg
 author:       
 ---
 
